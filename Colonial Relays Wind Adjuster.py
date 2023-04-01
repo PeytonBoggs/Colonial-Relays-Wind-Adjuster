@@ -36,8 +36,6 @@ class AdjustedTime:
 
         self.adjTimeinMins = adjMins + ":" + adjSecs
 
-        print(self.adjTimeinMins)
-
     def getAdjustmentData(self):
         if self.event == "100m" and self.section == "Men's" and self.invitational is False:
             self.wind = 38
